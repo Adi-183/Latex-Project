@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+%this is a comment
+
+\title{Hello World!}
+
+\author{Aditya Patel}
+\date{November 16, 2021}
+\begin{document}
+\pagenumbering{gobble}
+
+\maketitle
+
+\section{Getting Started}
+\textbf{Hello World!} Today I am learning \LaTeX . \LaTeX is a great program for writing math. I can write line math such as $ a^{2}+b^{2}=c^{2} $. I can also give equations their own space: 
+\begin{equation}
+   \gamma^{2} + \theta^{2}=\omega^{2}    
+\end{equation}
+"Maxwell" equations are named for James Clark Maxwell and are as follows:\\
+\begin{equation}
+   \tab \:\: \: \Vec{ \nabla}.\Vec{E}  =\frac{\rho}{\epsilon_0} \tab \tab \tab    \text{Gauss's Law} \tab \tab \tab \:\:\:
+\end{equation}
+\begin{equation}
+    \Vec{ \nabla}.\Vec{B}  =0 \tab \tab \tab \: \: \text{Gauss's Law for Magnetism}
+\end{equation}
+\begin{equation}
+    \Vec{ \nabla}\times\Vec{E}  =-\frac{\partial \Vec{B}}{\partial t} \tab \tab \: \: \:  \text{Faraday's Law of Induction} 
+\end{equation}
+\begin{equation}
+    \tab  \quad \Vec{ \nabla}\times\Vec{B}=\mu_0 \left( \epsilon_0\frac{\partial \Vec{E}}{\partial t} + \Vec{J} \right)  \quad  \: \text{Ampere's Circuital Law} \tab  \quad \:
+\end{equation}
+Equations 2,3,4 and 5 are some of the most important in Physics.
+\section{What about Matrix Equations?}
+\[
+\begin{pmatrix}
+a_{11}&a_{12}&\cdots&a_{1n}\\
+a_{21}&a_{22}&\cdots&a_{2n}\\
+\vdots&\vdots&\ddots&\vdots \\
+a_{n1}&a_{n2}&\cdots&a_{nn}\\
+\end{pmatrix}
+\begin{bmatrix}
+v_1\\
+v_2\\
+\vdots\\
+v_n\\
+\end{bmatrix}
+=
+\begin{matrix}
+w_1\\
+w_2\\
+\vdots\\
+w_n\\
+\end{matrix}
+\]
+\end{document}
